@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+        <meta name="description" content="{{site.description}}"/>
+        <meta name="keywords" content="{{site.keywords}}"/>
+        <meta name="author" content="{{site.author}}"/>
+        <link rel="icon" href="{{site.baseurl}}/favicon.ico" />
+
+        <link rel="stylesheet" type="text/css" href="{{site.baseurl}}css/main.css" media="screen">
+    </head>
+
+    <body>
+  
+      <header>
+        <div class="container">
+          <h1>darker@github - project hub</h1>
+          <h2>List of my projects</h2>
+        </div>
+      </header>
+  
+      <div class="container">
+        <section id="main_content">
+          {{ content }}
+        </section>
+      </div>
+    </body>
+</html>
