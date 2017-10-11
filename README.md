@@ -7,7 +7,7 @@
     echo "Radek: $line"
  done < /dev/stdin
  ```
- ## Parsování parametrů programu
+ ## [Parsování parametrů programu](https://stackoverflow.com/q/192249/607407)
  ## Pole
  Vytvoření nového pole:
  ```
